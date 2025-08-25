@@ -44,7 +44,7 @@ The system is **menu-driven**, supporting operations like adding new pets, owner
 - Java (JDK 8+)  
 - JDBC (Java Database Connectivity)  
 - MySQL 8.0+  
-- MySQL Workbench or phpMyAdmin (for DB setup)  
+- MySQL Workbench  (for DB setup)  
 
 ---
 
