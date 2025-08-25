@@ -110,5 +110,3 @@ java mypack.Main
 
 ---
 
-populated?
-```
