@@ -48,10 +48,4 @@ The system is **menu-driven**, supporting operations like adding new pets, owner
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone this repository
-
-```bash
-git clone https://github.com/your-username/veterinary-management-system.git
-cd veterinary-management-system
