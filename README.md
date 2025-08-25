@@ -1,2 +1,57 @@
-# Veterinary-Management-System
-A Java-based Veterinary Management System that helps manage animals and their owners using JDBC with MySQL.  Features:  Register new animals and their owners  View all registered animals and owners  Update animal or owner information  Delete animals or owners from the system  Console-based menu-driven interface
+# 🐾 Veterinary Management System (Java + MySQL)
+
+This is a **Veterinary Management System** built using **Java (JDBC)** and **MySQL**.  
+It allows a veterinary clinic to manage pets, their owners, and medical records efficiently.  
+
+The system is **menu-driven**, supporting operations like adding new pets, owners, updating records, and deleting entries.
+
+---
+
+## 🔧 Features
+
+- ✅ Add new pets and owners  
+- ✅ View all pets and owners  
+- ✅ Update any field of pets or owners  
+- ✅ Delete pets and owners  
+- ✅ Track pets linked to their respective owners  
+- ✅ Menu-driven interface for ease of use  
+
+---
+
+## 🗃️ Database Structure
+
+### 🐶 `pets` Table:
+| Column     | Type     | Description              |
+|------------|----------|--------------------------|
+| pet_id     | INT      | Primary Key              |
+| name       | VARCHAR  | Pet's name               |
+| species    | VARCHAR  | Pet species (Dog, Cat)   |
+| age        | INT      | Age of the pet           |
+| owner_id   | INT      | Foreign key (Owner link) |
+
+### 👤 `owners` Table:
+| Column    | Type     | Description                |
+|-----------|----------|----------------------------|
+| owner_id  | INT      | Primary Key                |
+| name      | VARCHAR  | Owner's name               |
+| phone     | VARCHAR  | Owner's contact number     |
+| email     | VARCHAR  | Owner's email address      |
+
+---
+
+## 💻 Technologies Used
+
+- Java (JDK 8+)  
+- JDBC (Java Database Connectivity)  
+- MySQL 8.0+  
+- MySQL Workbench or phpMyAdmin (for DB setup)  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/your-username/veterinary-management-system.git
+cd veterinary-management-system
